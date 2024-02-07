@@ -1,0 +1,96 @@
+<DOCTYPE html>
+<html>
+<head>
+	<title>simple landing page using html css</title>
+<style type="text/css">
+	*{padding: 0; margin: 0;box-sizing: border-box;}
+	header{
+		width: 100%;
+		height: 100vh;
+		background: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.2)), url("landing.jpg");
+		background-size: cover;
+		 
+	}
+	nav{
+		width: 100%;
+		height: 100px;
+		color: white;
+
+		display: flex;
+		justify-content: space-around;
+		align-items: center;
+
+	}
+	.logo{
+		font-size: 2em;
+		letter-spacing: 2px;
+	}
+	.menu a{
+		text-decoration: none;
+		color: white;
+		padding: 10px 20px;
+		font-size: 20px;
+	}
+	
+	.register a{
+		text-decoration: none;
+		color: white;
+		padding: 10px 20px;
+		font-size: 20px;
+		border-radius: 8px;
+
+	}
+	.h-txt{
+		max-width: 650px;
+		position: absolute;
+		top:50%;
+		left:50%;
+		transform: translate(-50%,-50%);
+		text-align: center;
+		color: white;
+	}
+	.h-txt span{
+		letter-spacing: 5px;
+	}
+	.h-txt h2{
+		font-size: 3.5em;
+	}
+	.h-txt a{
+		text-decoration: none;
+		background: indianred;
+		color: 10px 20px;
+		padding: 10px 20px;
+		letter-spacing: 5px;
+	}
+
+</style>
+</head>
+<body>
+	<header>
+		<nav>
+			<div class="logo">
+				SATYAM AWASTHI 
+			</div>
+			<div class="menu">
+				<a href="#">Home</a>
+				<a href="#">My Cv</a>
+				<a href="#">Services</a>
+				<a href="#">Best offer's</a>
+				<a href="#">Our sites</a>
+				<a href="#">Contact</a>
+				`
+			</div>
+			<div class="register">
+				<a href="#">Register</a>
+			</div>
+		</nav>
+		<section class="h-txt">
+			<span>Enjoy</span>
+			<h1>Satyam Awasthi Require Services</h1>
+			<br>
+			<a href="#">Services</a>
+		</section>
+	</header>
+	
+</body>
+</html
